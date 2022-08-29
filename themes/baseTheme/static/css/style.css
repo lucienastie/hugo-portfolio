@@ -68,6 +68,7 @@ body {
 #index-content {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
     width: 800px;
     align-items: center;
     gap: 50px;
@@ -284,4 +285,21 @@ a {
 
 #no-post-small {
     font-size: 2em;
+}
+
+.link-in-text {
+    color: #808080;
+    cursor: pointer;
+}
+
+@media (max-width: 370px) {
+    .index-section-title {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 500px) {
+    .header-icons-container {
+        display: none !important;
+    }
 }

@@ -21,9 +21,9 @@
                 <p id="no-post"><span id="no-post-big">There is no post yet</span><br/><span id="no-post-small">It should come soon</span></p>
         {{ end }}
         </div>
-        <div style="width: 800px; position: relative; margin: auto;">
+        <div style="max-width: 95%; width: 800px; position: relative; margin: auto;">
             <span class="index-section-title">You want more ?</span>
-            <p class="index-section-content">I'm also a hobbyist programmer, you can find more of my projects not data focused on my github.</p>
+            <p class="index-section-content">I'm also a hobbyist programmer, you can find more of my projects not data focused on my <a class="link-in-text" href="{{ $.Site.Params.github }}" target="_blank">github</a>.</p>
         </div>
         {{- partial "footer.html" . -}}
     </div>
