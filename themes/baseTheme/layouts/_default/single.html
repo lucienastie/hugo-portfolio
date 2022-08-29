@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+{{- partial "head.html" . -}}
+<link rel="stylesheet" type="text/css" href="/css/post.css">
+<body>
+    <div id="content-container">
+        {{- partial "header.html" . -}}
+        <div id="post-content">
+            <span id="post-date">{{.Date.Format "January 2, 2006"}}</span><br />
+            <span id="post-readtime">{{ .ReadingTime }} {{ if eq .ReadingTime 1 }} minute {{ else }} minutes {{ end }}read</span>
+            {{.Content}}
+        </div>
+        {{- partial "footer.html" . -}}
+    </div>
+</body>
+
+</html>

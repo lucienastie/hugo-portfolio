@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+{{- partial "head.html" . -}}
+
+<body>
+    <div id="content-container">
+        {{- partial "header.html" . -}}
+        <div id="list-posts-container">
+        {{ if and (.Pages) (gt (len .Pages) 1) }}
+            {{ range .Pages }}
+                {{if ne .Title "Helloworld"}}
+                <a href="{{.Permalink}}" class="list-post-card">
+                    <img src='{{ print ( path.Join "../" (path.Dir .Page.File.Path) (.Params.featured_image)) }}'
+                        class="list-post-thumbnail" />
+                    <span class="list-post-card-title">{{.Title}}</span>
+                    <span class="list-post-card-date">{{.Date.Format "January 2, 2006"}}</span>
+                </a>
+                {{ end }}
+            {{ end }}
+        {{ else }}
+                <p id="no-post"><span id="no-post-big">There is no post yet</span><br/><span id="no-post-small">It should come soon</span></p>
+        {{ end }}
+        </div>
+        <div style="width: 800px; position: relative; margin: auto;">
+            <span class="index-section-title">You want more ?</span>
+            <p class="index-section-content">I'm also a hobbyist programmer, you can find more of my projects not data focused on my github.</p>
+        </div>
+        {{- partial "footer.html" . -}}
+    </div>
+</body>
+
+</html>

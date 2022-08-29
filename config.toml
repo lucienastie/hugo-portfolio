@@ -1,0 +1,10 @@
+baseURL = 'https://www.lucienastie.com'
+languageCode = 'en-uk'
+title = 'Lucien Astié'
+theme = 'baseTheme'
+[params]
+    name = 'Lucien Astié'
+    job = 'Engineer student'
+    linkedin = 'https://www.linkedin.com/in/lucien-astie'
+    github = 'https://www.github.com/lucienastie'
+    mail = 'lucien.astie@gmail.com'
