@@ -1,7 +1,7 @@
 ---
 title: "Helloworld"
 date: 2022-08-24T19:53:13+02:00
-draft: true
+draft: false
 featured_image: "big_data_blue.jpg"
 ---
 
