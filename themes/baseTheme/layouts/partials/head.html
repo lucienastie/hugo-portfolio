@@ -6,5 +6,6 @@
     {{ if .IsHome }}{{ $title = .Site.Title }}
     {{ else if (not .IsPage) }}{{ $title = "Lucien's projects"}}
     {{ end }}
+    <script defer data-domain="lucienastie.com" src="https://plausible.io/js/plausible.js"></script>
     <title>{{ $title }}</title>
 </head>
