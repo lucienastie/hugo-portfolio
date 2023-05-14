@@ -2,10 +2,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
-    {{ $title := print .Site.Title " | " .Title }}
-    {{ if .IsHome }}{{ $title = .Site.Title }}
-    {{ else if (not .IsPage) }}{{ $title = "Lucien's projects"}}
-    {{ end }}
     <script defer data-domain="lucienastie.com" src="https://stats.lulusworld.art/js/plausible.js"></script>
-    <title>{{ $title }}</title>
+    <title>{{ $.Site.Title }}</title>
 </head>

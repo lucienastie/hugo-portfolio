@@ -1,0 +1,21 @@
+- title: "Employé à la mairie"
+  website: "https://musees.angers.fr/"
+  subtitle: "Bibliothèque / Musées"
+  years: "2019 - 2020 - 2022"
+  tasks:
+    - "Accueil du public + surveillance"
+    - "Réparation et rangement des livres"
+- title: "Conseiller en data"
+  website: "https://www.loreal.com/fr/"
+  subtitle: "L'Oréal"
+  years: "2022 : Février - Avril (3 mois)"
+  tasks:
+    - "PowerBI - Tableau de bord"
+    - "Data - Récupération et structuration"
+- title: "Developer / Designer"
+  website: "https://naviu.tech/"
+  subtitle: "Naviu (Berlin)"
+  years: "2023: Février - Juillet (6 mois)"
+  tasks:
+    - "Design des applications"
+    - "Développement"

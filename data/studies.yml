@@ -1,0 +1,21 @@
+- title: "Classe préparatoire (CPGE)"
+  website: "https://chevrollier.paysdelaloire.e-lyco.fr/les-formations/les-cpge/"
+  subtitle: "Lycée chevrollier"
+  years: "2018 - 2020"
+  tasks:
+    - "Préparation aux concours d'ingénieur"
+    - "Physique et Technologie (PT)"
+- title: "ENSAM - Arts et Métiers"
+  website: "https://artsetmetiers.fr/fr/formation/ingenieur-generaliste"
+  subtitle: "Campus d'Angers"
+  years: "2020 - 2024"
+  tasks:
+    - "Ingénierie mécanique et industrielle"
+    - "Plus gros réseau alumni d'Europe"
+- title: "MIES P3 - Innovation"
+  website: "https://www.hesam.eu/miesp3"
+  subtitle: "Centre Michel Serres"
+  years: "2023 - 2024"
+  tasks:
+    - "Prospective, Innovation, Disruption"
+    - "Gestion de projet"
