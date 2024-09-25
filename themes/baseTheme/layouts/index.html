@@ -10,16 +10,15 @@
                 <p class="no-margins fc-orange">{{ $.Site.Data.personal.title }}</p>
                 <p class="text-justified">{{ $.Site.Data.personal.motivation }}</p>
             </div>
-            <img src="img/Zag.jpeg" class="profile-picture"/>
+            <img src="img/photo.jpg" class="profile-picture"/>
         </div>
         <div class="c-column fs-default" style="white-space: nowrap;">
             <div class="c-row-phone-no-reverse full-width justify-space-between">
                 <div class="c-row small-gap personal-item align-center"><img class="infos-icon" src="svg/mail.svg"/><a class="fc-black no-underline" href="mailto:{{ $.Site.Data.personal.mail}}">{{ $.Site.Data.personal.mail}}</a></div>
-                <div class="c-row small-gap personal-item align-center"><img class="infos-icon" src="svg/phone.svg"/><span>{{ $.Site.Data.personal.phone}}</span></div>
+                <div class="c-row small-gap personal-item align-center"><img class="infos-icon" src="svg/linkedin.svg"/><a class="fc-black no-underline" href="{{ $.Site.Data.personal.linkedin}}">{{ trim $.Site.Data.personal.linkedin "https://"}}</a></div>
             </div>
             <div class="c-row-phone-no-reverse full-width justify-space-between">
-                <div class="c-row small-gap personal-item align-center"><img class="infos-icon" src="svg/address.svg"/><span>{{ $.Site.Data.personal.address}}</span></div>
-                <div class="c-row small-gap personal-item align-center"><img class="infos-icon" src="svg/linkedin.svg"/><a class="fc-black no-underline" href="{{ $.Site.Data.personal.linkedin}}">{{ trim $.Site.Data.personal.linkedin "https://"}}</a></div>
+                <div class="c-row small-gap personal-item align-center"><img class="infos-icon" src="svg/phone.svg"/><span>{{ $.Site.Data.personal.phone}}</span></div>
             </div>
         </div>
         <div class="c-column medium-gap">
@@ -53,7 +52,7 @@
                     <div class="c-column small-gap">
                         <div class="c-column">
                             <h2 class="fs-smallTitle">{{ .title }}</h2>
-                            <a href="{{ .website }}" target="_blank" class="fs-smallTitle fc-black no-underline job-subtitle">{{ .subtitle }} {{ if isset . "website" }}🡕{{ end }}</a>
+                            <a href="{{ .website }}" target="_blank" class="fs-smallTitle fc-black no-underline job-subtitle">{{ .subtitle }}</a>
                         </div>
                         <h3 class="fc-orange fs-default">{{ .years }}</h3>
                         <div class="c-column small-gap">
@@ -80,7 +79,7 @@
                     <div class="c-column small-gap">
                         <div class="c-column">
                             <h2 class="fs-smallTitle">{{ .title }}</h2>
-                            <a href="{{ .website }}" target="_blank" class="fs-smallTitle fc-black no-underline job-subtitle">{{ .subtitle }} {{ if isset . "website" }}🡕{{ end }}</a>
+                            <a href="{{ .website }}" target="_blank" class="fs-smallTitle fc-black no-underline job-subtitle">{{ .subtitle }}</a>
                         </div>
                         <h3 class="fc-orange fs-default">{{ .years }}</h3>
                         <div class="c-column small-gap">
@@ -107,7 +106,7 @@
                     <div class="c-column small-gap">
                         <div class="c-column">
                             <h2 class="fs-smallTitle">{{ .title }}</h2>
-                            <a href="{{ .website }}" target="_blank" class="fs-smallTitle fc-black no-underline job-subtitle">{{ .subtitle }} {{ if isset . "website" }}🡕{{ end }}</a>
+                            <a href="{{ .website }}" target="_blank" class="fs-smallTitle fc-black no-underline job-subtitle">{{ .subtitle }}</a>
                         </div>
                         <h3 class="fc-orange fs-default">{{ .years }}</h3>
                         <div class="c-column small-gap">
